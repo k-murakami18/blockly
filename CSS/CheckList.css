@@ -1,0 +1,64 @@
+.check{
+  /* position:absolute; */
+  float: right;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: auto;
+  border:1px solid #ccc;
+}
+
+.list-top{
+  margin-top: 8px;
+}
+.list-bottom{
+  margin-bottom: 8px;
+}
+.list{
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.list-inner{
+  margin-top: 100px;
+}
+
+.btn_area {
+  position: relative;
+  height: 50px;
+  margin-top: 10px;
+}
+.btn_vote {
+  position: absolute;
+  /* left: 0; */
+  margin-left: 2%;
+  bottom: 0;
+  width: 50px;
+  height: 50px;
+  float: left;
+  cursor: pointer;
+  background: #aaa url(../img/btn_heart.png) no-repeat center center;
+  background-size: 50px 50px;
+  border-radius: 25px;
+  transition: all 0.2s linear;
+  -webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+
+.btn_vote.on {
+  background-color: #fd616b;
+  animation: anime_01 0.2s;
+}
+
+@keyframes anime_01 {
+  50% {
+    right: -10px;
+    bottom: -10px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+  }
+}
+
+.ico_heart {
+  padding-left: 17px;
+  background: url(../img/ico_heart.jpg) no-repeat left center;
+  background-size: 15px 15px;
+  margin-left: 70px;
+}

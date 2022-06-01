@@ -1,0 +1,194 @@
+@media screen and (-webkit-min-device-pixel-ratio:0){
+  html, body {
+    height: 100%;
+    margin: 0;
+  }
+
+  /******************** ↓ヘッダー用↓ ********************/
+  header {
+    height: 60px;
+    width: 100%;
+    /* padding: 0px 15px; */
+    background-color: #1E262E; /*灰色背景*/
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+
+  .title{
+    font-family: "ヒラギノ角ゴ Pro W4";
+    font-size: 1.5em;
+    padding-right: 5%;
+    padding-left: 2%;
+    line-height: 60px; /*ヘッダーの高さと同じ60px*/
+    color: white;
+  }
+
+  nav {
+  margin: 0 0 0 auto; /*nav要素の左側に余白*/
+  }
+
+  ul {
+    display: flex; /*リストを横並びにする*/
+    list-style: none; /*unorder listの 中点を消す*/
+    padding: 0; /*中点が位置する左余白を消す*/
+    margin: 0; /*上下にある余白を消す*/
+  }
+
+  .back_btn {
+    color: white; /*黒文字*/
+    font-weight: bold;
+    text-decoration: none; /* リンクの下線を削除 */
+    display: block; /*幅と高さを持ったブロック要素*/
+    line-height: 60px; /*ヘッダーの高さと同じ60px*/
+    padding: 0 20px; /*各リスト項目の余白左右20px*/
+    margin: 0 20px; /*各リスト項目の余白左右20px*/
+    background: #1E262E;;
+  }
+
+  li{
+    font-weight: 1000;
+  }
+
+  .back_btn:hover,a.back_btn:hover {
+    background: white;
+    color: black;
+  }
+  /******************** ↑ヘッダー用↑ ********************/
+
+  /******************** ↓エディタ用↓ ********************/
+  .tab_btn{
+    height: 80%;
+    width: 60%;
+    /* position: absolute; */
+    float: left;
+  }
+  /******************** ↑エディタ用↑ ********************/
+
+  /******************** ↓図形表示領域用↓ ********************/
+  .content{
+    float: right;
+    border:1px solid #ccc;
+    margin-bottom: 0%;
+    overflow-x: scroll;
+  }
+  /******************** ↑図形表示領域用↑ ********************/
+
+  /******************** ↓チェックリスト用↓ ********************/
+  .check{
+    /* position:absolute; */
+    height: 40%;
+    width: 39.5%;
+    margin-left: 2px;
+    float: right;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: auto;
+    border:1px solid #ccc;
+  }
+  .list-top{
+    margin-top: 8px;
+  }
+  .list-bottom{
+    width:200px;
+    font-size: 100%;
+    margin-bottom: 8px;
+  }
+
+  .list{
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+
+  .list-inner{
+    margin-top: 100px;
+  }
+  /******************** ↑チェックリスト用↑ ********************/
+
+  /******************** ↓各種ボタン用↓ ********************/
+  .various_btn{
+    font-family: "ヒラギノ角ゴ Pro W4";
+    font-weight: 600;
+    font-size: 1em;
+    width: 120px;
+    height: 40px;
+    background-color: white;
+    color: #1E262E;
+    border: 1px solid #1E262E;
+    cursor: pointer;
+  }
+
+  .submit_btn{
+    font-family: "ヒラギノ角ゴ Pro W4";
+    font-weight: 600;
+    font-size: 1em;
+    width: 120px;
+    height: 40px;
+    background-color: #1E262E;
+    color: white;
+    border: 1px solid #1E262E;
+    cursor: pointer;
+  }
+
+  .sample_btn{
+    font-family: "ヒラギノ角ゴ Pro W4";
+    font-weight: 600;
+    font-size: 1em;
+    width: 120px;
+    height: 40px;
+    background-color: #EBEBEB;
+    color: black;
+    border: 1px solid #1E262E;
+    cursor: pointer;
+  }
+
+  .guide_btn{
+    font-family: "ヒラギノ角ゴ Pro W4";
+    font-weight: 600;
+    font-size: 1em;
+    width: 150px;
+    height: 40px;
+    background-color: #EBEBEB;
+    color: black;
+    border: 1px solid #1E262E;
+    cursor: pointer;
+  }
+
+  .arrow_btn{
+    font-family: "ヒラギノ角ゴ Pro W4";
+    font-weight: 600;
+    font-size: 1em;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    color: #1E262E;
+    border: 1px solid #1E262E;
+    cursor: pointer;
+  }
+
+  .various_btn:hover, .arrow_btn:hover, .sample_btn:hover, .guide_btn:hover{
+    background-color: #1E262E;
+    color: white;
+  }
+
+  .submit_btn:hover{
+    background-color: black;
+    color: orange;
+  }
+  /******************** ↑各種ボタン用↑ ********************/
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  _::-webkit-full-page-media,_:future,:root html, body {
+    height: 100%;
+    margin: 0;
+  }
+  _::-webkit-full-page-media,_:future,:root .tab_btn{
+    /* position: relative; */
+    float: left;
+  }
+  _::-webkit-full-page-media,_:future,:root .content{
+    /* position:absolute; */
+    float: right;
+    border:1px solid #ccc;
+  }
+}
