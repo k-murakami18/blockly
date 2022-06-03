@@ -18,8 +18,8 @@
 |プログラム中へのコメント挿入 | | ◯ | ● |
 
 
-#### 学習者画面
+#### 学習者用デモ画面
 [作成画面](https://ichi-lab.net/~g231t034/blockly/PE2018/Task1.php?u_id=g231t034)  
 [評価確認画面](https://ichi-lab.net/~g231t034/blockly/PE2018/EvaluationTop.php?task=1&u_id=g031p143)
-#### チューター用画面
+#### チューター用デモ画面
 [評価画面](https://ichi-lab.net/~g231t034/blockly/PE2018/tutorTop.php?task=1&selection=0&u_id=g231t034)
